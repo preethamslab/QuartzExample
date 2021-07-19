@@ -16,7 +16,8 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path="/messages")
-public class MessageController {
+public class
+MessageController {
     @Autowired
     private QuartzConfiguration quartzConfig;
 
